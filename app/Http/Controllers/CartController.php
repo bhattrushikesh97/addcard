@@ -12,6 +12,8 @@ class CartController extends Controller
         $cartItems = Cart::all();
         // dd($cartItems);
         return view('cart')->with('cartItems',$cartItems);
+        //test
+        $cartItems="";
     }
 
 
